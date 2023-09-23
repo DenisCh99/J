@@ -10,8 +10,8 @@
 
     <properties>
 
-        <maven.compiler.sourse>20</maven.compiler.sourse>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.sourse>20.0.1</maven.compiler.sourse>
+        <maven.compiler.target>20.0.1</maven.compiler.target>
     </properties>
 
 </project>
