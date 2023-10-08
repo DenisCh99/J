@@ -21,6 +21,7 @@ public class Car {
         this.year = year;
         this.wasCrashed =wasCrashed;
         //????this(model, year, wasCrashed);
+
     }
 
 
