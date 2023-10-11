@@ -1,6 +1,6 @@
 package Lesson1__6;
 
-public class Bike extends Transport {
+public final class Bike extends Transport {
     private int wheelsNumber;
 
     public Bike(int wheelsNumber) {
@@ -13,5 +13,16 @@ public class Bike extends Transport {
 
     public void setWheelsNumber(int wheelsNumber) {
         this.wheelsNumber = wheelsNumber;
+    }
+
+
+    @Override
+    public void wroomWroom() {
+        System.out.println("bzzzzzzzz");
+    }
+
+    @Override
+    public void printInventionDate() {
+        System.out.println("1950");
     }
 }

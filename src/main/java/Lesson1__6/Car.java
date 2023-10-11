@@ -32,6 +32,11 @@ public class Car extends Transport {
     }
 
     @Override
+    public void wroomWroom() {
+        System.out.println("wroooooooooom");
+    }
+
+    @Override
     public String toString() {
         return model + " " + year;
     }
@@ -39,4 +44,6 @@ public class Car extends Transport {
     void info(){
         System.out.println(this);
     }
+
+
 }
